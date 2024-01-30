@@ -14,8 +14,8 @@ This project is a travel agency website developed with React and Styled Componen
 
 ## Technologies Used
 
-- React: A JavaScript library for building user interfaces.
-- Styled Components: A library for writing styles in JavaScript and creating reusable components.
+- React: A TypeScript library for building user interfaces.
+- Styled Components: A library for writing styles in TypeScript and creating reusable components.
 - React Icons: A popular icon set for React.
 - AOS (Animate On Scroll): A library for scroll-based animations.
 
