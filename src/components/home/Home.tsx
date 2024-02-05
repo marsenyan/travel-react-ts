@@ -11,14 +11,27 @@ import 'aos/dist/aos.css';
 
 import video from '../../Assets/video.mp4';
 
-import { HomeSection, HomeContainer, VideoContent, HomeContent, TextContent, SmallText, HomeTitle, CardDiv, DestinationInput, Input, 
-DateInput, PriceInput, LabelTotal, FilterContent, AosContent,RightIcons, LeftIcons } from './styles';
+import {
+  HomeSection,
+  HomeContainer,
+  VideoContent,
+  HomeContent,
+  TextContent,
+  SmallText,
+  HomeTitle,
+  CardDiv,
+  DestinationInput,
+  Input,
+  DateInput,
+  PriceInput,
+  LabelTotal,
+  FilterContent,
+  AosContent,
+  RightIcons,
+  LeftIcons,
+} from './styles';
 
-
-interface HomeProps {
-  
-}
-
+interface HomeProps {}
 
 export const Home: React.FC<HomeProps> = () => {
   useEffect(() => {
@@ -43,7 +56,6 @@ export const Home: React.FC<HomeProps> = () => {
             <label htmlFor="city">Search your destination:</label>
             <Input className="input flex">
               <input type="text" placeholder="Enter name here..." />
-
               <GrLocation />
             </Input>
           </DestinationInput>

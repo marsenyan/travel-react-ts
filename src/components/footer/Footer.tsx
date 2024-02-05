@@ -14,6 +14,7 @@ import { NavLink } from '../navbar/styles';
 
 
 interface FooterProps {
+  
 }
 
 export const Footer: React.FC<FooterProps> = () => {
@@ -57,7 +58,6 @@ export const Footer: React.FC<FooterProps> = () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam inventore eos fuga hic cum voluptatem
               minima, tempore non odio provident nobis ipsam at, doloremque sed cupiditate ipsum in, atque soluta?
             </FooterParagraph>
-
             <FooterSocials>
                 <IconWrapper>
                   <AiOutlineTwitter />
