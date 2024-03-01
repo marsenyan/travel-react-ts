@@ -27,3 +27,7 @@ The website is designed with a responsive layout, ensuring a seamless user exper
 1. Clone this repository: `git clone https://github.com/marsenyan/travel-react-ts.git`
 2. Install dependencies: `npm install`
 3. Start the application: `npm run dev`
+![Home Page](/public/homePage.png)
+![Home PageResp](/public/homeRespPage.png.png)
+![ContryPage](/public/countryPage.png)
+![FotterPage](/public/footerPage.png)

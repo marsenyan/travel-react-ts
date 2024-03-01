@@ -25,7 +25,7 @@ export const Footer: React.FC<FooterProps> = () => {
   return (
     <FooterSection id="footer">
       <VideoDiv>
-        <Video src={video2} loop autoPlay muted type="video/mp4"></Video>
+      <Video src={video2} loop autoPlay muted></Video>
         <VideoOverlay></VideoOverlay>
       </VideoDiv>
 
